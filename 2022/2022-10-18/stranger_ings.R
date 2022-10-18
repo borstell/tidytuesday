@@ -38,7 +38,7 @@ stranger_ings %>%
   facet_wrap(.~paste0("Season ",season), scales="free", ncol=2) +
   theme_minimal(base_family=font1) +
   theme(strip.text = element_text(size=18, color="orangered"),
-        axis.text = element_text(size=9, color="orangered", margin = margin(-100,-100,-100,-100)),
+        axis.text = element_text(size=9, color="orangered"),
         plot.title = element_text(family=font2, size=70, color="orangered2", hjust=.5, lineheight=.8),
         plot.subtitle = element_text(family=font1, size=10, color="orangered2", hjust=.5, vjust=39.5),
         plot.caption = element_text(size=7.8, hjust=.5, vjust=288, family=font1,color="orangered2"),
