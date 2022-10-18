@@ -1,0 +1,1 @@
+![](stranger_ings.jpg)
