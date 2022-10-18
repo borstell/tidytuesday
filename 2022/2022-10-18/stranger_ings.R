@@ -16,8 +16,8 @@ stranger_ings <- stranger_things %>%
   filter(str_ends(word, "ing"))
 
 # Custom fonts
-font1 = "Rubik Glitch"
-font2 = "IM FELL DW Pica SC"
+font1 = "Rubik Glitch" #https://fonts.google.com/specimen/Rubik+Glitch
+font2 = "IM FELL DW Pica SC" #https://fonts.google.com/specimen/IM+Fell+DW+Pica
 
 # Plot ing forms
 stranger_ings %>% 
