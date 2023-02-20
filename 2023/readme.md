@@ -1,1 +1,1 @@
-![]("./bobross.png")
+![](bobross.png)
