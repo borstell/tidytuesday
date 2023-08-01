@@ -27,9 +27,3 @@ plot_usmap(data = states, values = "biggest", color = "white") +
 
 # Save plot
 ggsave(width = 2.5, height = 3, units = "in", dpi = 600)
-
-states %>% 
-  filter(biggest) %>% 
-  select(state) %>% 
-  unlist() %>% 
-  paste0(., collapse = ", ")
