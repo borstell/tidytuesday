@@ -54,7 +54,6 @@ scoville_labs <- c(
 )
 names(scoville_labs) <- 1:5
 
-
 # Plotting ----------------------------------------------------------------
 
 # Custom font "Fredericka the Great":
@@ -88,10 +87,10 @@ sauces |>
   
   # Draw label
   geom_rect(aes(xmin=location-.45, xmax=location+.45, ymin=.08, ymax=.22), fill="wheat2") +
-  geom_point(aes(x=location, y=.22/2+.08/2, shape=label_shape), color="wheat3") +
+  geom_point(aes(x=location, y=.22/2+.08/2, shape=label_shape), size=rel(.9), color="wheat3") +
   
   # Draw bottle cap
-  geom_rrect(aes(xmin=location-.25, xmax=location+.25, ymin=.4, ymax=.45), 
+  geom_rrect(aes(xmin=location-.25, xmax=location+.25, ymin=.4, ymax=.46), 
              radius = unit(.2, "mm"), fill="grey5") +
   
   # Draw shelves
@@ -106,7 +105,7 @@ sauces |>
   
   # Labels
   labs(title="Hot Ones Sauces",
-       subtitle="Unique hot sauces served\nby Scoville heat category\nper each 7-season block\n",
+       subtitle="Unique hot sauces served\nby Scoville heat category\nfor each 7-season block\n",
        caption="Data: Wikipedia via TidyTuesday | Packages: {tidyverse,ggchicklet} | Visualization: @c_borstell") +
   
   # Facet by heat level and season block
@@ -136,7 +135,7 @@ sauces |>
         plot.margin = margin(5, 25, 25, 15, unit = "pt"))
 
 # Save plot
-#ggsave(width = 7, height=5, units = "in", dpi=600)
+ggsave(width = 7, height=5, units = "in", dpi=600)
 
 # Alt-text
 #"Graphic showing the distribution of Hot Ones Sauces: Unique hot sauces served by Scoville heat category per each 7-season block. The style is that of a blackboard with chalk writing in orange/yellow. Underneath the title, five brown shelves of hotness level from top to bottom in three columns each representing a season block is populated with small bottles of hot sauce colored in green (mild) to dark red (extreme). Data from Wikipedia via TidyTuesday. Packages tidyverse and ggchicklet. Visualization @c_borstell.
