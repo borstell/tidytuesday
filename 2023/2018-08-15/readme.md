@@ -1,1 +1,0 @@
-![](tidy_spam.jpg)
