@@ -97,10 +97,10 @@ spam %>%
                                     hjust=.5,
                                     vjust=670),
         plot.background = element_rect(fill="#12226B"),
-        plot.margin = margin(30, 15, -15, -15, unit = "pt"),
+        plot.margin = margin(30, 12, -15, -15, unit = "pt"),
         panel.grid = element_blank())
 
 # Save plot
-ggsave(width = 5.5, height = 7, units = "in", dpi = 600)
+ggsave(width = 5.55, height = 7, units = "in", dpi = 600)
 
 #Alt-text: Graphic in the style of a SPAM can, blue background and yellow text, showing the percentage of emails containing exclamation points "!" and dollar signs "$" in spam vs non-spam emails. The columns (showing the higher values for spam emails) are a light pink shade, resembling slices of spam.
