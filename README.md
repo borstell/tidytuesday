@@ -2,9 +2,11 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-08-29: Fair use](https://github.com/borstell/tidytuesday/tree/main/2023/2023-08-29/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-08-29/fair_use.jpg)
+
 ## [2023-08-15: Spam](https://github.com/borstell/tidytuesday/tree/main/2023/2023-08-15/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-08-15/tidy_spam.jpg)
-
 
 ## [2023-08-08: Hot Ones](https://github.com/borstell/tidytuesday/tree/main/2023/2023-08-08/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-08-08/hot_ones.jpg)
