@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-09-05: Union wages](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-05/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-05/union.jpg)
+
 ## [2023-08-29: Fair use](https://github.com/borstell/tidytuesday/tree/main/2023/2023-08-29/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-08-29/fair_use.jpg)
 
