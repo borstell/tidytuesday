@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-09-12: Global Human Day](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-12/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-12/global_human_day.jpg)
+
 ## [2023-09-05: Union wages](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-05/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-05/union.jpg)
 
