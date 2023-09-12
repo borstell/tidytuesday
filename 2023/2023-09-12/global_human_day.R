@@ -120,7 +120,7 @@ europe_activities |>
         strip.clip="off")
 
 # Save plot
-ggsave("global_human_day.jpg", width=10, height=10, units="in", dpi=200)
+ggsave("global_human_day.jpg", width=10, height=10, units="in", dpi=600)
 
 # Alt-text
 # A graphic showing "Work~Life balance in Europe: Hours of activity (z scored), excluding sleep". Each country is represented as scales, with either work or life weighing heavier.
