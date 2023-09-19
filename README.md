@@ -2,7 +2,7 @@
 
 Repo for TidyTuesday contributions
 
-## [2023-09-19: Global Human Day](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-19/)
+## [2023-09-19: CRAN Package Authors](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-19/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-19/cran_authors.jpg)
 
 ## [2023-09-12: Global Human Day](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-12/)
