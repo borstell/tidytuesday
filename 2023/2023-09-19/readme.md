@@ -1,0 +1,1 @@
+![](./cran_authors.jpg)
