@@ -68,24 +68,21 @@ pitch +
             family="Atkinson Hyperlegible Bold") +
   geom_text(data=positions, aes(x+nudge, y, label=ep), 
             size=3, color="#fafafa", family="Atkinson Hyperlegible Bold") +
-  geom_textbox(aes(x=65, y=18, label=paste("Roy Kent", positions[11,]$fs)), 
-               fill="transparent", box.color="transparent", hjust=0,
-               size=8, color="#fafafa", family="Atkinson Hyperlegible Bold", width = 2) +
-  geom_textbox(aes(x=65, y=53.5, label=paste(positions[22,]$fs, "Others")), 
-               fill="transparent", box.color="transparent", hjust=0,
+  geom_textbox(aes(x=65, y=52.5, label=paste("Roy Kent", positions[11,]$fs, "    ", positions[22,]$fs, "Others")), 
+               fill="transparent", box.color="transparent", hjust=.51, halign=.5,
                size=8, color="#fafafa", family="Atkinson Hyperlegible Bold", width = 2) +
   scale_color_manual(values=c("red3", "dodgerblue4")) +
   labs(title="Who gave more f*cks, <span style='color:dodgerblue4'>Roy Kent</span> or <span style='color:red4'>others</span>?",
-       subtitle='No of times the word <span style="color:#fafafa">"f*ck"</span> was uttered<br>per episode in Ted Lasso (season 1)',
+       subtitle='No of times the word <span style="color:gold">"f*ck"</span> was uttered<br>per episode in Ted Lasso (season 1)',
        caption="Data: Deepsha Menghani via TidyTuesday | Visualization: @c_borstell | Packages: {tidyverse,ggforce,ggtext}") +
   theme_void() +
-  theme(aspect.ratio = 2/3,
+  theme(aspect.ratio = .6,
         plot.background = element_rect(fill="green4", color="green4"),
         panel.background = element_rect(fill="green4", color="green4"),
         plot.title = element_textbox(family="Atkinson Hyperlegible Bold", 
-                                     size=rel(4), color="#fafafa", width = 1, halign = .5),
+                                     size=rel(4), color="#fafafa", width = .9, halign = .5, hjust = .5),
         plot.subtitle = element_textbox(family="Atkinson Hyperlegible Bold", 
-                                     size=rel(2), color="lightgreen", width = .9, halign = .8),
+                                     size=rel(2), color="lightgreen", width = .9, halign = .5, hjust = .5),
         plot.caption = element_text(family="Atkinson Hyperlegible Bold", 
                                         size=rel(.7), color="limegreen", hjust=.5, vjust=10),
         plot.margin = margin(5, -30, 0, -30, unit = "mm"))
