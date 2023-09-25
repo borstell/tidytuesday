@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-09-19: Roy Kent](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-26/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-26/ted_lasso.jpg)
+
 ## [2023-09-19: CRAN Package Authors](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-19/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-19/cran_authors.jpg)
 
