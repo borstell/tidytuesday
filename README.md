@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-10-03: US Grant Opportunities](https://github.com/borstell/tidytuesday/tree/main/2023/2023-10-03/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-10-03/us_grants.jpg)
+
 ## [2023-09-19: Roy Kent](https://github.com/borstell/tidytuesday/tree/main/2023/2023-09-26/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-09-26/ted_lasso.jpg)
 
