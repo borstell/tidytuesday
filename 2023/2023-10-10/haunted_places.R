@@ -56,6 +56,7 @@ spoopy_states <- spoopy_us |>
   left_join(us_census_2020, by = join_by(state == State)) |> 
   mutate(relative = n/Population*100000)
 
+# Get basic US map
 usmap <- maps::map("world", regions = "USA", plot = F, fill = T)
 
 # Ranking the top 10 states with most haunted places relative to # of inhabitants
