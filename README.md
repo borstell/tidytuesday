@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-10-17: Taylor Albums](https://github.com/borstell/tidytuesday/tree/main/2023/2023-10-17/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-10-17/taylor_albums.jpg)
+
 ## [2023-10-10: Haunted Places](https://github.com/borstell/tidytuesday/tree/main/2023/2023-10-10/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-10-10/haunted_places.jpg)
 
