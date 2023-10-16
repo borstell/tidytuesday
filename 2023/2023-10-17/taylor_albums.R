@@ -114,7 +114,7 @@ t <- ggplot() +
         plot.margin = margin(5, 5, 5, 5, unit="mm"),
         strip.clip = "off")
 
-ggsave(".taylor_albums_sheet.jpg", t, width=5.5, height=8, units="in")
+ggsave("./taylor_albums_sheet.jpg", t, width=5.5, height=8, units="in")
 
 sheet <- ggplotGrob(t)
 
