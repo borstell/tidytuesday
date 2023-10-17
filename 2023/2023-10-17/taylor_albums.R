@@ -15,6 +15,9 @@ taylor_album_songs <- read_csv("https://raw.githubusercontent.com/rfordatascienc
 
 # Process data ------------------------------------------------------------
 
+keys <- c(1, 1, 2, 2, 3, 4, 4, 5, 5, 6, 6, 7)
+names(keys) <- c("C", "C", "D", "D", "E", "F", "F", "G", "G", "A", "A", "B")
+
 taylor_keys <- taylor_album_songs |> 
   select(album_release, album_name, track_name, track_number, key, key_name, duration_ms) |> 
   drop_na() |> 
@@ -33,6 +36,13 @@ taylor_keys <- taylor_album_songs |>
   )) |> 
   mutate(key_letter = str_sub(key_name, 1, 1),
          key_tag = str_sub(key_name, 2, 2)) |> 
+  rowwise() |> 
+  mutate(key = keys[key_letter]) |> 
+  ungroup() |> 
+  mutate(c_bar = case_when(
+    n() > 18 ~ .3,
+    .default = .2
+  ), .by = album_name) |> 
   mutate(word = gsub(" .*", "", track_name)) |> 
   mutate(word = case_when(
     track_number!=1 & word!="I" ~ tolower(word),
@@ -44,7 +54,7 @@ taylor_keys <- taylor_album_songs |>
   )) |> 
   mutate(stem_y = case_when(
     key > 6 ~ key-7,
-    .default = key+6
+    .default = key+4
   )) |> 
   mutate(stem_x = case_when(
     key > 6 ~ -.1,
@@ -91,6 +101,11 @@ time <- tibble(x=0, y=c(3.5, 7), label=c("4", "4"))
 
 # Correct a flag stem
 taylor_keys[3, ]$stem_y <- taylor_keys[3, ]$stem_y-1.5
+taylor_keys[11, ]$stem_y <- taylor_keys[11, ]$stem_y+1
+taylor_keys[177, ]$stem_y <- taylor_keys[177, ]$stem_y+2.5
+taylor_keys[178, ]$stem_y <- taylor_keys[178, ]$stem_y-2
+taylor_keys[179, ]$stem_y <- taylor_keys[179, ]$stem_y+1
+taylor_keys[183, ]$stem_y <- taylor_keys[183, ]$stem_y+3.5
 
 
 
@@ -99,12 +114,13 @@ taylor_keys[3, ]$stem_y <- taylor_keys[3, ]$stem_y-1.5
 t <- ggplot() +
   geom_hline(yintercept=seq(1, 10, by=2), color="grey30") +
   geom_text(data=time, aes(x, y, label=label), family="Trattatello", size=5) +
-  geom_point(data=taylor_keys, aes(x=track_number, y=key-1, shape=sh)) +
-  geom_segment(data=taylor_keys, aes(x=track_number+stem_x, xend=track_number+stem_x, y=key-1, yend=stem_y)) +
-  geom_text(data=taylor_keys, aes(x=track_number, y=-4, label=word), size=1.2) +
+  geom_point(data=taylor_keys, aes(x=track_number, y=key-2, shape=sh)) +
+  geom_segment(data=taylor_keys, aes(x=track_number+stem_x, xend=track_number+stem_x, y=key-2, yend=stem_y)) +
+  geom_text(data=taylor_keys, aes(x=track_number, y=-4, label=word), size=1.2, family="Trattatello") +
   geom_segment(data=beams, aes(x=xmin-.02, xend=xmax+.02, y=ymin, yend=ymax), linewidth=1.5) +
   geom_curve(data=flags, aes(x=x, xend=xend, y=stem_y, yend=yend), curvature=.2, linewidth=.7) +
-  geom_text(data=taylor_keys, aes(x=track_number-.3, y=key-.5, label=key_tag), family="Trattatello") +
+  geom_text(data=taylor_keys, aes(x=track_number-.3, y=key-1, label=key_tag), family="Trattatello") +
+  geom_segment(data=filter(taylor_keys, key_letter=="C"), aes(x=track_number-c_bar, xend=track_number+c_bar, y=key-2, yend=key-2)) +
   scale_shape_identity() +
   ylim(-5, 12) +
   labs(x="", y="") +
@@ -135,7 +151,7 @@ ggplot() +
   theme(plot.background = element_rect(color="transparent", fill="#FAFAEE"),
         plot.margin = margin(15, 5, 5, 5, unit="mm"),
         plot.title = element_text(hjust=.5, size=rel(6)),
-        plot.subtitle = element_text(hjust=.6, vjust=4, size=rel(1.6), color="grey45"))
+        plot.subtitle = element_text(hjust=.62, vjust=4, size=rel(1.6), color="grey45"))
 ggsave("./taylor_albums.jpg", width=11, height=10, units="in")
 
 
