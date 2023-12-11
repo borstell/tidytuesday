@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-12-12: Holiday Movies](https://github.com/borstell/tidytuesday/tree/main/2023/2023-12-12/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-12-12/holiday_movies.jpg)
+
 ## [2023-12-05: Life Expectancy](https://github.com/borstell/tidytuesday/tree/main/2023/2023-12-05/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-12-05/life_expectancy_sweden.jpg)
 
