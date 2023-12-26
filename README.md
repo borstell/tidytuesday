@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2023-12-26: R Packages (2022)](https://github.com/borstell/tidytuesday/tree/main/2023/2023-12-26/)
+![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-12-26/r_packages.jpg)
+
 ## [2023-12-12: Holiday Movies](https://github.com/borstell/tidytuesday/tree/main/2023/2023-12-12/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2023/2023-12-12/holiday_movies.jpg)
 
