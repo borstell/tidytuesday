@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-01-16: US polling stations](https://github.com/borstell/tidytuesday/tree/main/2024/2024-01-16/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-01-16/polling_stations.jpg)
+
 ## [2024-01-09: NHL births](https://github.com/borstell/tidytuesday/tree/main/2024/2024-01-09/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-01-09/nhl_births.jpg)
 
