@@ -62,7 +62,7 @@ ggplot() +
   geom_segment(data=top, aes(x=longitude, xend=longitude+pessimistic*20, y=latitude+.1, yend=latitude+pessimistic*5), color="grey45", size=4, alpha=.95) +
   ggforce::geom_ellipse(data=top, aes(x0=longitude+pessimistic*20, y0=latitude+pessimistic*5, a=.45, b=.3, angle=6), color="transparent", fill="grey45", alpha=.95) +
   ggforce::geom_ellipse(data=top, aes(x0=longitude+pessimistic*20+1.5, y0=latitude+pessimistic*5+.4, a=.3, b=.8, angle=1.7), color="transparent", fill="grey45", alpha=.8) +
-  geom_segment(data=top, aes(x=longitude+pessimistic*20, xend=longitude+pessimistic*20+1, y=latitude+pessimistic*5, yend=latitude+pessimistic*5+.3), color="grey45", size=1, alpha=.75) +
+  geom_segment(data=top, aes(x=longitude+pessimistic*20, xend=longitude+pessimistic*20+.9, y=latitude+pessimistic*5, yend=latitude+pessimistic*5+.22), color="grey45", size=1, alpha=.75) +
   
   # Logs
   ggforce::geom_ellipse(data=top, aes(x0=longitude, y0=latitude, a=.8, b=.2, angle=0), color=brown4, fill=brown3) +
@@ -78,7 +78,7 @@ ggplot() +
   geom_segment(data=top, aes(x=longitude, xend=longitude, y=latitude+pessimistic*10, yend=latitude+pessimistic*10+1), color="grey10") +
   geom_point(data=top, aes(x=longitude, y=latitude+pessimistic*10+1.3), shape=16, color="grey20", size=9.5) +
   geom_point(data=top, aes(x=longitude, y=latitude+pessimistic*10+1.3), shape=16, color="#FAFAFA", size=8) +
-  geom_text(data=top, aes(x=longitude, y=latitude+pessimistic*10+1.31, label=rank), family="Sonsie One") +
+  geom_text(data=top, aes(x=longitude-.04, y=latitude+pessimistic*10+1.31, label=rank), family="Sonsie One") +
   
   # Text
   ggtext::geom_textbox(aes(x=-98, y=39, label="Pessimistic Groundhog Day"), 
@@ -94,7 +94,7 @@ ggplot() +
   
   geom_point(data=top, aes(x=-74, y=38-rank*1.5), shape=16, color="grey20", size=8) +
   geom_point(data=top, aes(x=-74, y=38-rank*1.5), shape=21, color="transparent", fill="#FAFAFA", size=6.5) +
-  geom_text(data=top, aes(x=-74, y=38-rank*1.5, label=rank), color="grey10", family="Sonsie One", size=3) +
+  geom_text(data=top, aes(x=-74-.05, y=38-rank*1.5, label=rank), color="grey10", family="Sonsie One", size=3) +
   ggtext::geom_textbox(data=top, aes(x=-66, y=38-rank*1.52, label=paste0(name, " (", round(pessimistic*100), "%)")), 
                        size=3.2, family="American Typewriter", box.color="transparent", fill="transparent", maxwidth = 2) +
   
