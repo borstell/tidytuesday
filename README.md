@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-01-30: Groundhog Day Predictions](https://github.com/borstell/tidytuesday/tree/main/2024/2024-01-30/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-01-30/groundhogs.jpg)
+
 ## [2024-01-16: US polling stations](https://github.com/borstell/tidytuesday/tree/main/2024/2024-01-16/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-01-16/polling_stations.jpg)
 
