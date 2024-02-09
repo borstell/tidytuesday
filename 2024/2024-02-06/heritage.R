@@ -49,9 +49,9 @@ ggplot() +
   
   # Make lines from countries to data points
   geom_sigmoid(data=filter(heritage, year==2004), aes(x=c(18, 10, 9), y=c(65, 61.5, 56),
-                                  xend=30+(year-2005)/2, yend=60+(5-rank*2), group=country, color=country), linewidth=2) +
+                                                      xend=30+(year-2005)/2, yend=60+(5-rank*2), group=country, color=country), linewidth=2) +
   geom_sigmoid(data=filter(heritage, year==2004), aes(x=30+(year-2005)/2, y=60+(5-rank*2),
-                                  xend=30+(year-2005)/2+10, yend=60+(5-current*2), group=country, color=country), linewidth=2) +
+                                                      xend=30+(year-2005)/2+11.5, yend=60+(5-current*2), group=country, color=country), linewidth=2) +
   
   # Make endpoint markers for countries
   geom_point(data=heritage, aes(x=c(18, 18, 9.8, 9.8, 9.1, 9.1), y=c(65, 65, 61.5, 61.5, 56, 56), color=country, size=.01)) +
