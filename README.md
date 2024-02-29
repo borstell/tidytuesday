@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-02-27: Leap Day](https://github.com/borstell/tidytuesday/tree/main/2024/2024-02-27/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-02-27/leap_day.jpg)
+
 ## [2024-02-13: Valentine's Day Purchases](https://github.com/borstell/tidytuesday/tree/main/2024/2024-02-13/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-02-13/valentines.jpg)
 
