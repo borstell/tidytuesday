@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-03-05: Trash Wheels](https://github.com/borstell/tidytuesday/tree/main/2024/2024-03-05/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-03-05/trashwheel.jpg)
+
 ## [2024-02-27: Leap Day](https://github.com/borstell/tidytuesday/tree/main/2024/2024-02-27/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-02-27/leap_day.jpg)
 
