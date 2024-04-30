@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-04-23: Outer Space Objects](https://github.com/borstell/tidytuesday/tree/main/2024/2024-04-23/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-04-23/outer_space.jpg)
+
 ## [2024-03-05: Trash Wheels](https://github.com/borstell/tidytuesday/tree/main/2024/2024-03-05/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-03-05/trashwheel.jpg)
 
