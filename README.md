@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-06-04: Cheeses](https://github.com/borstell/tidytuesday/tree/main/2024/2024-06-04/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-06-04/cheeses.jpg)
+
 ## [2024-04-23: Outer Space Objects](https://github.com/borstell/tidytuesday/tree/main/2024/2024-04-23/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-04-23/outer_space.jpg)
 
