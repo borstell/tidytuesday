@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2024-10-01: Chess](https://github.com/borstell/tidytuesday/tree/main/2024/2024-10-01/)
+![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-10-01/chess.png)
+
 ## [2024-06-04: Cheeses](https://github.com/borstell/tidytuesday/tree/main/2024/2024-06-04/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-06-04/cheeses.jpg)
 
