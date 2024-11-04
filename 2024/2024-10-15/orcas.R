@@ -49,7 +49,7 @@ ggplot() +
 
 # Save plot ---------------------------------------------------------------
 
-ggsave("orcas.png", height = 5, width = 5.75, units = "in", dpi = 600, bg = "white")
+ggsave("orcas.png", height = 5, width = 5.755, units = "in", dpi = 600, bg = "white")
 
 
 
