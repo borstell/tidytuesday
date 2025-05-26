@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-05-27: Dungeons and Dragons Monsters](https://github.com/borstell/tidytuesday/tree/main/2025/2025-05-27/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-05-27/dnd_monster_size.jpg)
+
 ## [2024-10-01: Orca Encounters](https://github.com/borstell/tidytuesday/tree/main/2024/2024-10-15/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2024/2024-10-15/orcas.png)
 
