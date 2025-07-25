@@ -30,6 +30,11 @@ col2 <- col_pal2[2]
 
 # Custom functions --------------------------------------------------------
 
+# Several steps in the color processing were 
+# borrowed from Joseph Fruehwald's blog post:
+# Fruehwald, Josef. 2025. “Tidytuesday Color Survey.” Væl Space. July 9, 2025. 
+# https://jofrhwld.github.io/blog/posts/2025/07/2025-07-09_color-survey/.
+
 # Function to get the HLS (incl hue) from hex colors
 hex2hls <- function(hex) {
   
