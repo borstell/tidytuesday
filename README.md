@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-08-26: Billboard Hot 100 Number Ones](https://github.com/borstell/tidytuesday/tree/main/2025/2025-08-26/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-08-26/billboard.png)
+
 ## [2025-08-19: Scottish Munros](https://github.com/borstell/tidytuesday/tree/main/2025/2025-08-19/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-08-19/munros.png)
 
