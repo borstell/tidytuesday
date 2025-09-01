@@ -34,13 +34,13 @@ frog_legend <-
   guides(fill = "none") +
   labs(title = "Frog diversity index") +
   theme_void() +
-  theme(axis.text.x = element_text(family = "PT Sans Bold", 
+  theme(axis.text.x = element_text(family = "Patrick Hand", 
                                    size = rel(.8), 
                                    color = "grey30"),
-        plot.title = element_text(family = "PT Sans Bold", 
+        plot.title = element_text(family = "Patrick Hand", 
                                   size = rel(1.2), 
                                   hjust = .5, 
-                                  vjust = -37, 
+                                  vjust = -27, 
                                   color = "grey20"))
 
 # Plot frog diversity over a map
@@ -68,11 +68,11 @@ frog_map +
                                                              hjust = -1.25,
                                                              vjust = -16,
                                                              color = "grey25"),
-                                plot.caption = element_text(family = "PT Sans Narrow",
+                                plot.caption = element_text(family = "Patrick Hand",
                                                             color = "grey50",
                                                             size = rel(.7),
-                                                            hjust = 3.2,
-                                                            vjust = 40),
+                                                            hjust = 2.2,
+                                                            vjust = 30),
                                 plot.margin = margin(-12, -50, -20, 20, "mm")))
 
 # Save plot
