@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-08-26: Australian Frogs](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-02/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-02/oz_frogs.png)
+
 ## [2025-08-26: Billboard Hot 100 Number Ones](https://github.com/borstell/tidytuesday/tree/main/2025/2025-08-26/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-08-26/billboard.png)
 
