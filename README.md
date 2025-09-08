@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-09-09: Henley Passport Index](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-09/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-09/henley_passport_index.png)
+
 ## [2025-09-02: Australian Frogs](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-02/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-02/oz_frogs.png)
 
