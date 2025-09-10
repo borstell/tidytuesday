@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-09-16: Allrecipes](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-16/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-16/allrecipes.png)
+
 ## [2025-09-09: Henley Passport Index](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-09/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-09/henley_passport_index.png)
 
