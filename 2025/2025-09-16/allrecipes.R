@@ -10,7 +10,7 @@ library(ggtext)
 
 # Themes and colors -------------------------------------------------------
 
-color_pal <- c("darkred", "orangered3", "goldenrod3")
+color_pal <- c("darkred", "orangered3")
 title_col <- "brown4"
 bg_col <- "floralwhite"
 
@@ -89,7 +89,7 @@ all_ingredients |>
   annotate("richtext", x = 0, y = -2.85, label = "Oil<br><span style='font-size:25pt'>🫒</span>", family = bold_font, size = 8, color = color_pal[1], label.size = 0, fill = "transparent") +
   
   # Description of data and plot
-  annotate("richtext", x = -3.55, y = 3.2, label = "Based on 2,218 recipes categorized by<br>country of origin, this graph shows<br>the proportional frequency of<br>**chicken** vs. **egg** (x-axis) &<br>**butter** vs. **oil** (y-axis)<br>mentioned across<br>recipes of each<br>cuisine.", 
+  annotate("richtext", x = -3.55, y = 3.2, label = "Based on 2,218 recipes categorized by<br>the **cuisine** (country, region, culture),<br>this graph shows the proportional<br>frequency of the ingredients<br>**chicken** vs. **egg** (x-axis) &<br>**butter** vs. **oil** (y-axis)<br>mentioned across<br>recipes of each<br>cuisine", 
            family = base_font, size = 5, hjust = 0, label.size = 0, fill = "transparent") +
   
   # Caption
@@ -120,7 +120,7 @@ all_ingredients |>
            color = "grey50") +
   
   # Customization
-  scale_color_gradient2(low = color_pal[1], mid = color_pal[2], high = color_pal[3], midpoint = 0) +
+  scale_color_gradient(low = color_pal[1], high = color_pal[2]) +
   scale_size_continuous(range = c(1.9, 5)) +
   guides(color = "none", size = "none") +
   labs(title = "The chicken 🐓  or the egg 🥚?") +
