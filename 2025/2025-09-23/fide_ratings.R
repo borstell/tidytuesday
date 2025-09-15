@@ -10,7 +10,8 @@ library(ggtext)
 
 black_sq <- "peachpuff4"
 white_sq <- "floralwhite"
-bg_col <- "lightgoldenrod4"
+#bg_col <- "lightgoldenrod4"
+bg_col <- "thistle4"
 engraving_col <- "goldenrod"
 engraving_col2 <- "cornsilk2"
 engraving_col3 <- "cornsilk3"
@@ -18,7 +19,6 @@ engraving_col3 <- "cornsilk3"
 
 
 # Read data ---------------------------------------------------------------
-
 
 fide_sep <- 
   read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_september.csv")
@@ -114,8 +114,8 @@ fide_cohort_rank |>
   scale_x_discrete(expand = c(0, 0), sec.axis = dup_axis(),
                    labels = cohort_labs) +
   coord_equal() +
-  labs(title = "FIDE chess players by country & birth year",
-       subtitle = "<br>**Ranking** of total number of rated International Chess Federation (FIDE) chess players (ELO rating ⩾1400) per **federation/country** and the players' **birth year**<span style='font-size:12pt'><br>Numbers under the flags show the number of players (with percentage of totals in brackets)<br></span>",
+  labs(title = "FIDE chess players by country & year of birth",
+       subtitle = "<br>**Ranking** of the top International Chess Federation (FIDE) **countries** by the number of rated players<br>(Elo rating ⩾1400) per age group (**year of birth**)<span style='font-size:12pt'><br>Numbers under the flags show the number of players (with percentage of totals in brackets)<br></span>",
        caption = "**Data:** FIDE (September 2025) via TidyTuesday | **Packages:** {ggtext, tidyverse} | **Visualization:** C. Börstell") +
   guides(fill = "none") +
   theme_void(paper = bg_col) +
