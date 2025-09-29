@@ -129,7 +129,7 @@ crane_observations |>
   theme(plot.margin = margin(5, 10, 5, 10, "mm"),
         axis.text.x = element_text(family = font, color = pencil_color),
         plot.title = element_text(family = font, hjust = .5, size = rel(2.1), color = "grey20"),
-        plot.subtitle = element_text(family = font, hjust = .5, size = rel(1)),
+        plot.subtitle = element_text(family = font, hjust = .5, size = rel(1), color = pencil_color),
         plot.caption = element_text(family = font, hjust = 1, size = rel(.35)))
 
 # Save plot
