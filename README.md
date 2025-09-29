@@ -2,7 +2,7 @@
 
 Repo for TidyTuesday contributions
 
-## [2025-09-23: Crane Observations at Lake Hornborgasjön](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-30/)
+## [2025-09-30: Crane Observations at Lake Hornborgasjön](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-30/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-30/cranes.png)
 
 ## [2025-09-23: FIDE Chess Player Ratings](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-23/)
