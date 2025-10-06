@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-10-07: Euroleague Basketball](https://github.com/borstell/tidytuesday/tree/main/2025/2025-10-07/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-10-07/euroleague_basketball.png)
+
 ## [2025-09-30: Crane Observations at Lake Hornborgasjön](https://github.com/borstell/tidytuesday/tree/main/2025/2025-09-30/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-09-30/cranes.png)
 
