@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-10-14: World Food Day](https://github.com/borstell/tidytuesday/tree/main/2025/2025-10-14/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-10-14/world_food_day.png)
+
 ## [2025-10-07: Euroleague Basketball](https://github.com/borstell/tidytuesday/tree/main/2025/2025-10-07/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-10-07/euroleague_basketball.png)
 
