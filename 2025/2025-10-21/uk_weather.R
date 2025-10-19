@@ -176,7 +176,7 @@ weather_stations |>
   annotate("segment", x = 1970, xend = 2024, y = seq(5, 15, by = 5), lwd = .5, color = "grey50", alpha = .5) +
   annotate("segment", x = 1970, xend = 2024, y = seq(7.5, 15, by = 5), lwd = .25, color = "grey50", alpha = .5) +
   annotate("text", x = 1970, y = seq(5, 15, by = 5), label = paste0(seq(5, 15, by = 5), "°C   "), 
-           hjust = 1, family = main_font, size = 4) +
+           hjust = .9, family = main_font, size = 4) +
   
   # Add lines per station and year
   geom_line(aes(x = year, y = tmax, group = station), color = col_hi, alpha = .05, lwd = 1) +
