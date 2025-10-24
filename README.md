@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-10-28: British Literary Prizes](https://github.com/borstell/tidytuesday/tree/main/2025/2025-10-28/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-10-28/literary_prizes.png)
+
 ## [2025-10-21: UK Weather](https://github.com/borstell/tidytuesday/tree/main/2025/2025-10-21/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-10-21/uk_weather.png)
 
