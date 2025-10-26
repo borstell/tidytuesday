@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-11-04: Flint Water Lead Concentration](https://github.com/borstell/tidytuesday/tree/main/2025/2025-11-04/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-11-04/flint.png)
+
 ## [2025-10-28: British Literary Prizes](https://github.com/borstell/tidytuesday/tree/main/2025/2025-10-28/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-10-28/literary_prizes.png)
 
