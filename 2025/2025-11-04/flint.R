@@ -98,7 +98,7 @@ flint_lead <-
   ggdist::stat_gradientinterval(aes(x = above, y = fct_rev(source), fill = source), show.legend = F) +
   geom_vline(xintercept = .1, linetype = 3, color = "grey30") +
   annotate(GeomMarquee, x = .245, y = 3, 
-           label = "Points show median values; whiskers show 69% and 95% intervals", 
+           label = "Points show median values; whiskers show 66% and 95% intervals", 
            width = .15, lineheight = .8, fill = "snow",
            size = 2.5, family = "Asap Condensed", color = "grey30") +
   geom_arrow_curve(data = tibble(x = .22, xend = median(filter(flint_bootstraps, abbr == "VT")$above), y = 3, yend = 1.1), 
