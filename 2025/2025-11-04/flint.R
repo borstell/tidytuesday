@@ -142,7 +142,7 @@ free(flint_lead) + flint_map +
     **dangerous levels of lead** at a rate which would require official action 
     for public safety.",
     caption = 
-    "**Data:** MDEQ & Virginia Tech via TidyTuesday |
+    "**Data:** MDEQ & Virginia Tech in Loux & Gibson (2018) via TidyTuesday |
     **Packages:** {tidyverse, ggarrow, ggdist, marquee, patchwork, rnaturalearth, rsample, scales} |
     **Visualization:** C. Börstell",
     theme = theme(
@@ -155,7 +155,8 @@ free(flint_lead) + flint_map +
                                       width = .95, size = rel(.8)),
       plot.caption = element_marquee(family = "Asap Condensed", 
                                      color = "grey80",
-                                     hjust = .45),
+                                     hjust = .3,
+                                     size = rel(.75)),
       plot.margin = margin(3, 2, 2, 2, "mm"))
     )
 
