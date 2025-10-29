@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-11-18: WHO TB Burden Data](https://github.com/borstell/tidytuesday/tree/main/2025/2025-11-18/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-11-18/who_tb.png)
+
 ## [2025-11-04: Flint Water Lead Concentration](https://github.com/borstell/tidytuesday/tree/main/2025/2025-11-04/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-11-04/flint.png)
 
