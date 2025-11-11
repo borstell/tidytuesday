@@ -48,6 +48,7 @@ novel_lines |>
   geom_point(data = \(x) filter(x, watson), aes(x-.55, y+.55), shape = "🔎", size = 3, color = "grey40") +
   geom_tile(data = \(x) filter(x, watson), aes(x, y, fill = book), 
             show.legend = F) +
+  annotate("text", x = 0, y = 0, label = "⮕", family = "Tinos-Bold", size = .75) +
   annotate("text", x = 136, y = c(4, 32, 59, 98), label = c("A Study in Scarlet",
                                               "The Sign of the Four",
                                               "The Hound of the Baskervilles",
@@ -86,6 +87,6 @@ novel_lines |>
   canvas(5, 6, units = "in")
 
 # Save plot
-ggsave("sherlock.png", width = 5, height = 6, unit = "in", dpi = 600)
+ggsave("sherlock.png", width = 5, height = 6, unit = "in", dpi = 1200)
 
 
