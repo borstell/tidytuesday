@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2025-12-23: The Languages of the World](https://github.com/borstell/tidytuesday/tree/main/2025/2025-12-23/)
+![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-12-23/glottolog.jpg)
+
 ## [2025-12-09: Qatar Cars](https://github.com/borstell/tidytuesday/tree/main/2025/2025-12-09/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-12-09/qatarcars.png)
 
