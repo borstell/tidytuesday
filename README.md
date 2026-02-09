@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-02-10: 2026 Winter Olympics](https://github.com/borstell/tidytuesday/tree/main/2026/2026-02-10/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-02-10/winter_olympics.png)
+
 ## [2025-12-23: The Languages of the World](https://github.com/borstell/tidytuesday/tree/main/2025/2025-12-23/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2025/2025-12-23/glottolog.jpg)
 
