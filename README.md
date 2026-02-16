@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-02-17: Agricultural Production Statistics in New Zealand](https://github.com/borstell/tidytuesday/tree/main/2026/2026-02-17/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-02-17/sheep.png)
+
 ## [2026-02-10: 2026 Winter Olympics](https://github.com/borstell/tidytuesday/tree/main/2026/2026-02-10/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-02-10/winter_olympics.png)
 
