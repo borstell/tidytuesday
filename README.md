@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-03-24: One million digits of pi](https://github.com/borstell/tidytuesday/tree/main/2026/2026-03-24/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-03-24/pi.jpg)
+
 ## [2026-03-10: How likely is 'likely'?](https://github.com/borstell/tidytuesday/tree/main/2026/2026-03-10/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-03-10/likely.png)
 
