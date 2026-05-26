@@ -5,6 +5,9 @@ Repo for TidyTuesday contributions
 ## [2026-05-12: Twinned Cities](https://github.com/borstell/tidytuesday/tree/main/2026/2026-05-12/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-05-12/twin_cities.png)
 
+## [2026-05-05: Italian industrial production](https://github.com/borstell/tidytuesday/tree/main/2026/2026-05-05/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-05-05/sugar.png)
+
 ## [2026-03-24: One million digits of pi](https://github.com/borstell/tidytuesday/tree/main/2026/2026-03-24/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-03-24/pi.jpg)
 
