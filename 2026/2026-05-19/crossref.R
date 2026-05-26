@@ -110,7 +110,7 @@ papers |>
         plot.subtitle = element_textbox_simple(color = "antiquewhite4",
                                                width = .985,
                                                lineheight = .8,
-                                               margin = margin(t = 5, l = 0, unit = "pt")),
+                                               margin = margin(t = 2, b = 2, l = 0, unit = "pt")),
         plot.caption = element_markdown(angle = 0,
                                         halign = -100,
                                         valign = -100))
