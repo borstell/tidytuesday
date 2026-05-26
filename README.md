@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-05-12: Crossref metadata](https://github.com/borstell/tidytuesday/tree/main/2026/2026-05-19/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-05-19/crossref.png)
+
 ## [2026-05-12: Twinned Cities](https://github.com/borstell/tidytuesday/tree/main/2026/2026-05-12/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-05-12/twin_cities.png)
 
