@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-06-09: Films Based on Video Games](https://github.com/borstell/tidytuesday/tree/main/2026/2026-06-09/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-06-09/game_films.png)
+
 ## [2026-05-12: Crossref metadata](https://github.com/borstell/tidytuesday/tree/main/2026/2026-05-19/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-05-19/crossref.png)
 
