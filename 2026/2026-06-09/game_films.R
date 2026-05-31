@@ -43,47 +43,47 @@ game_films |>
   ggplot() +
   
   # Literally drawing the pipes field by field lol
-  geom_col(aes(x = str_c(decade, "s"), y = 30 + n), 
+  geom_col(aes(x = str_c(decade, "s"), y = 10 + n), 
            width = .5, fill = green1) +
-  geom_col(aes(x = str_c(decade, "s"), y = 30 + n), 
+  geom_col(aes(x = str_c(decade, "s"), y = 10 + n), 
            width = .17, fill = green2, position = position_nudge(x = .06)) +
-  geom_col(aes(x = str_c(decade, "s"), y = 30 + n), 
+  geom_col(aes(x = str_c(decade, "s"), y = 10 + n), 
            width = .1, fill = green2, position = position_nudge(x = .17), alpha = .25) +
   
-  geom_col(aes(x = str_c(decade, "s"), y = 30 + n), 
+  geom_col(aes(x = str_c(decade, "s"), y = 10 + n), 
            width = .04, fill = green2, position = position_nudge(x = -.17)) +
   
-  geom_col(aes(x = str_c(decade, "s"), y = 30 + n), 
+  geom_col(aes(x = str_c(decade, "s"), y = 10 + n), 
            width = .02, fill = green2, position = position_nudge(x = -.07), alpha = .8) +
   
-  geom_col(aes(x = str_c(decade, "s"), y = 30 + n), 
+  geom_col(aes(x = str_c(decade, "s"), y = 10 + n), 
            width = .5, fill = NA, color = green3, linewidth = 1) +
   
-  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 + .3, ymin = n + 31, ymax = n + 40),
+  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 + .3, ymin = n + 11, ymax = n + 25),
             fill = green1) +
   
-  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 - .21, ymin = n + 31, ymax = n + 38),
+  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 - .21, ymin = n + 11, ymax = n + 23),
             fill = green2) +
-  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 - .25, ymin = n + 31, ymax = n + 37),
+  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 - .25, ymin = n + 11, ymax = n + 22),
             fill = green1) +
   
-  geom_rect(aes(xmin = 1:5 - .05, xmax = 1:5 + .17, ymin = n + 31, ymax = n + 38),
+  geom_rect(aes(xmin = 1:5 - .05, xmax = 1:5 + .17, ymin = n + 11, ymax = n + 23),
             fill = green2) +
-  geom_rect(aes(xmin = 1:5 + .17, xmax = 1:5 + .27, ymin = n + 31, ymax = n + 38),
+  geom_rect(aes(xmin = 1:5 + .17, xmax = 1:5 + .27, ymin = n + 11, ymax = n + 23),
             fill = green2, alpha = .5) +
   
-  geom_rect(aes(xmin = 1:5 - .1, xmax = 1:5 - .07, ymin = n + 31, ymax = n + 38),
+  geom_rect(aes(xmin = 1:5 - .1, xmax = 1:5 - .07, ymin = n + 11, ymax = n + 23),
             fill = green2) +
-  geom_rect(aes(xmin = 1:5 - .1, xmax = 1:5 + .3, ymin = n + 37, ymax = n + 38),
+  geom_rect(aes(xmin = 1:5 - .1, xmax = 1:5 + .3, ymin = n + 22, ymax = n + 23),
             fill = green2) +
   
   
-  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 + .3, ymin = n + 31, ymax = n + 40),
+  geom_rect(aes(xmin = 1:5 - .3, xmax = 1:5 + .3, ymin = n + 11, ymax = n + 25),
             fill = NA, color = green3, linewidth = 1) +
   
   
   # Add labels of Ns on top of pipes
-  geom_text(aes(x = 1:5, y = n + 50, label = n),
+  geom_text(aes(x = 1:5, y = n + 34, label = n),
             color = txt, hjust = .5) +
   
   # Create ground and decade labels
