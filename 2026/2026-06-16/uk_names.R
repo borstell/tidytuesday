@@ -116,16 +116,16 @@ names_to_plot <-
 # Custom header
 header <- 
   ggplot() +
-  annotate("text", x = I(.5), y = I(.65), label = str_glue("Out of 100 people in the UK named ____\nin {first_year}–{last_year}, how many are found in …"),
+  annotate("text", x = I(.5), y = I(.65), label = str_glue("Out of 100 children in the UK named ___\nin {first_year}–{last_year}, how many are found in …"),
            family = "Archivo Narrow", size = 24, lineheight = .85) +
   annotate("label", x = I(.215), y = I(.24), label = "England & Wales", 
-           label.r = unit(0, "pt"), label.padding = unit(15, "pt"), linewidth = 0, 
+           label.r = unit(0, "pt"), label.padding = unit(20, "pt"), linewidth = 0, 
            fill = "firebrick3", color = "white", family = "ArchivoNarrow-Bold", size = 20) +
-  annotate("label", x = I(.58), y = I(.24), label = "Northern Ireland", 
-           label.r = unit(0, "pt"), label.padding = unit(15, "pt"), linewidth = 0, 
+  annotate("label", x = I(.581), y = I(.24), label = "Northern Ireland", 
+           label.r = unit(0, "pt"), label.padding = unit(20, "pt"), linewidth = 0, 
            fill = "antiquewhite3", color = "black", family = "ArchivoNarrow-Bold", size = 20) +
   annotate("label", x = I(.865), y = I(.24), label = "Scotland", 
-           label.r = unit(0, "pt"), label.padding = unit(15, "pt"), linewidth = 0, 
+           label.r = unit(0, "pt"), label.padding = unit(20, "pt"), linewidth = 0, 
            fill = "dodgerblue4", color = "white", family = "ArchivoNarrow-Bold", size = 20) +
   annotate("text", x = I(.5), y = I(.05), label = "Data:  Office for National Statistics, Northern Ireland Statistics and Research Agency and National Records of Scotland. | Packages: {tidyverse, ggforce, patchwork, proporz} | Visualization: C. Börstell",
            family = "Archivo Narrow", size = 4.5) +
@@ -146,4 +146,4 @@ ggsave("uk_names.png", width = 15, height = 20, units = "in", bg = "#FAFAFA", dp
 
 # Alt-text ----------------------------------------------------------------
 
-# A complex graphic with the title "Out of 100 people in the UK named ___ in 1997-2024, how many are found in ... England & Wales, Northern Ireland, Scotland". Underneath, there are six panels each with a header resembling the "Hello my name is" name tag sticker, with a different name filled out for each (Ryan, Padraig, Iain, Gemma, Aine, Catriona), above a 10x10 grid of filled squares representing the three country regions. Ryan & Gemma are mainly England & Wales; Padraig & Aine are mainly Northern Ireland; Iain & Catriona are mainly Scotland.
+# A complex graphic with the title "Out of 100 children in the UK named ___ in 1997-2024, how many are found in ... England & Wales, Northern Ireland, Scotland". Underneath, there are six panels each with a header resembling the "Hello my name is" name tag sticker, with a different name filled out for each (Eddie, Oisin, Elsie, Meabh, Stewart, Eilidh), above a 10x10 grid of filled squares representing the three country regions. Ryan & Gemma are mainly England & Wales; Padraig & Aine are mainly Northern Ireland; Iain & Catriona are mainly Scotland.
