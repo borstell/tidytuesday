@@ -93,11 +93,20 @@ plot_name <- function(df, name, sex) {
 }
 
 # Sample names to plot
-sample_names <- 
-  uk_names |> 
+uk_names |> 
   filter(sum(Number) >= 1000, 
          all(Prop > 0.01),
          .by = c(Sex, Name)) |> 
+  slice_sample(n = 1, by = c(Country, Rank, Sex)) |> 
+  filter(Rank == 1) |> 
+  arrange(Sex, Country)
+
+sample_names <- 
+  uk_names |> 
+  filter(
+    Name %in% c("Simon", "Dara", "Stewart") & Sex == "Boy" |
+    Name %in% c("Gemma", "Meabh", "Catriona") & Sex == "Girl"
+  ) |> 
   slice_sample(n = 1, by = c(Country, Rank, Sex)) |> 
   filter(Rank == 1) |> 
   arrange(Sex, Country)
@@ -127,7 +136,7 @@ header <-
   annotate("label", x = I(.865), y = I(.24), label = "Scotland", 
            label.r = unit(0, "pt"), label.padding = unit(20, "pt"), linewidth = 0, 
            fill = "dodgerblue4", color = "white", family = "ArchivoNarrow-Bold", size = 20) +
-  annotate("text", x = I(.5), y = I(.05), label = "Data:  Office for National Statistics, Northern Ireland Statistics and Research Agency and National Records of Scotland. | Packages: {tidyverse, ggforce, patchwork, proporz} | Visualization: C. Börstell",
+  annotate("text", x = I(.5), y = I(.035), label = "Data:  Office for National Statistics, Northern Ireland Statistics and Research Agency and National Records of Scotland. | Packages: {tidyverse, ggforce, patchwork, proporz} | Visualization: C. Börstell",
            family = "Archivo Narrow", size = 4.5) +
   theme_void(paper = "#FAFAFA")
 
@@ -146,4 +155,4 @@ ggsave("uk_names.png", width = 15, height = 20, units = "in", bg = "#FAFAFA", dp
 
 # Alt-text ----------------------------------------------------------------
 
-# A complex graphic with the title "Out of 100 children in the UK named ___ in 1997-2024, how many are found in ... England & Wales, Northern Ireland, Scotland". Underneath, there are six panels each with a header resembling the "Hello my name is" name tag sticker, with a different name filled out for each (Eddie, Oisin, Elsie, Meabh, Stewart, Eilidh), above a 10x10 grid of filled squares representing the three country regions. Ryan & Gemma are mainly England & Wales; Padraig & Aine are mainly Northern Ireland; Iain & Catriona are mainly Scotland.
+# A complex graphic with the title "Out of 100 children in the UK named ___ in 1997-2024, how many are found in ... England & Wales, Northern Ireland, Scotland". Underneath, there are six panels each with a header resembling the "Hello my name is" name tag sticker, with a different name filled out for each (Simon, Gemma, Dara, Meabh, Stewart, Catriona), above a 10x10 grid of filled squares representing the three country regions. Simon & Gemma are mainly England & Wales; Dara & Meabh are mainly Northern Ireland; Stewart & Catriona are mainly Scotland.
