@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-06-23: Papal Encyclicals](https://github.com/borstell/tidytuesday/tree/main/2026/2026-06-23/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-06-23/papal.png)
+
 ## [2026-06-16: UK Baby Names](https://github.com/borstell/tidytuesday/tree/main/2026/2026-06-16/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-06-16/uk_names.png)
 
