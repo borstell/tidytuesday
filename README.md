@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-09-22: Urban Green Areas](https://github.com/borstell/tidytuesday/tree/main/2026/2026-09-22/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-09-22/urban_green_areas.png)
+
 ## [2026-06-23: Papal Encyclicals](https://github.com/borstell/tidytuesday/tree/main/2026/2026-06-23/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-06-23/papal.png)
 
