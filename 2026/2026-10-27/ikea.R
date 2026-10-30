@@ -54,7 +54,7 @@ banner <-
   ggplot() +
   annotate("text", x = I(.35), y = I(.05), label = "IKEA sofa index", angle = 90, hjust = 0,
            family = "Helvetica Bold", color = "dodgerblue4", size = 14) +
-  annotate("text", x = I(.65), y = I(.055), label = str_glue("How much IKEA couch do you get for ${format(round(min(avg_sofas$mean_seat_price_usd)*5, -2), big.mark = ',')} US?"), angle = 90, hjust = 0,
+  annotate("text", x = I(.65), y = I(.055), label = str_glue("How much IKEA sofa do you get for ${format(round(min(avg_sofas$mean_seat_price_usd)*5, -2), big.mark = ',')} US?"), angle = 90, hjust = 0,
            family = "Helvetica Bold", color = "grey20", lineheight = .9, size = 4.5) +
   annotate("text", x = I(.8), y = I(.055), label = "Data: Ikea | Packages: {tidyverse, ggchicklet, patchwork} | Visualization: C. Börstell", angle = 90, hjust = 0,
            family = "Helvetica Bold", color = "goldenrod1", size = 2.5) +
@@ -97,6 +97,6 @@ ggsave("ikea.png", height = 5, width = 4, units = "in", dpi = 600)
 
 # Alt-text ----------------------------------------------------------------
 
-# A graphic showing a "IKEA sofa index: How much IKEA couch do you get for US $1000?". Thailand is the baseline, giving you a full 5-seat couch for the amount, whereas in Mexico, you get less about a 2-seat couch. Country names Thailand, Canada, Sweden, Germany and Mexico are given with faux umlauts. Data: Ikea; Packages: {tidyverse, ggchicklet, patchwork}; Visualization: C. Börstell.
+# A graphic showing a "IKEA sofa index: How much IKEA sofa do you get for US $1000?". Thailand is the baseline, giving you a full 5-seat sofa for the amount, whereas in Mexico, you get less about a 2-seat sofa, shown with a dashed line cutting off the remainder with scissors. Country names Thailand, Canada, Sweden, Germany and Mexico are given with faux umlauts. Data: Ikea; Packages: {tidyverse, ggchicklet, patchwork}; Visualization: C. Börstell.
 
 
