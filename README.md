@@ -2,6 +2,9 @@
 
 Repo for TidyTuesday contributions
 
+## [2026-10-27: IKEA sofas](https://github.com/borstell/tidytuesday/tree/main/2026/2026-10-27/)
+![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-10-27/ikea.png)
+
 ## [2026-09-22: Urban Green Areas](https://github.com/borstell/tidytuesday/tree/main/2026/2026-09-22/)
 ![](https://github.com/borstell/tidytuesday/blob/main/2026/2026-09-22/urban_green_areas.png)
 
